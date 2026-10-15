@@ -240,7 +240,7 @@ if st.button("Generate next-week outlook", type="primary"):
 
         fall_classes = fall_bundle["logistic"].classes_
 
-        fall_index = list(fall_classes).index("Fall")
+        fall_index = list(fall_classes).index(1)
 
         logistic_fall_probability = logistic_fall_probs[
             fall_index
