@@ -248,7 +248,7 @@ if st.button("Generate next-week outlook", type="primary"):
 
         gam_probability = float(
             fall_bundle["gam"].predict_proba(
-                fall_features
+                fall_logistic_input
             )[0]
         )
 
